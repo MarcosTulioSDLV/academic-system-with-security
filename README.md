@@ -70,11 +70,15 @@ For this API, the MySQL Database was used with the following configuration prope
 ## Database Initialization Configuration
 To run the application correctly, for the first time make sure the database already exists and set the following configuration in the application.properties file:
 
+```
 spring.sql.init.mode=always
+```
 
 For subsequent runs (once the database and its tables are already created), change the setting to:
 
+```
 spring.sql.init.mode=embedded
+```
 
 ## Development Tools
 This Rest API was built with:
