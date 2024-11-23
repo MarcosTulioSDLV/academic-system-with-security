@@ -46,7 +46,7 @@ ADMIN -> Administrative role for operations such as creating new users, managing
 ```
 
 ## Database Initialization with Default Data
-For this project, default users and courses have been created for quick testing using the scheme.sql and data.sql files. Additionally, endpoints are available for registering new users, logging in, and performing operations. Note that each new user is created with a default password. 
+For this project, default users and courses have been created for quick testing using the scheme.sql and data.sql files. Additionally, endpoints are available for registering new users, logging in, and performing operations. Note that each new user is created with a default password, which is provided automatically. 
 
 The default users were created with the following credentials:
 
