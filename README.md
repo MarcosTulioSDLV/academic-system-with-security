@@ -17,7 +17,7 @@ Below are some business rules that are essential for the system's functionality:
 
 • A student has a score for each enrolled course. The course teacher assigns the score after the student enrolls (the initial score is set to a default value of 0 once the student enrolls).
 
-• Allow the creation and removal of a professor, course, or student from the system. Once a new user is created, a default password is provided to them.
+• Allow the creation and removal of a professor, course, or student from the system. Once a new user is created, a default password is provided to them automatically.
 
 • After a student is removed from the system, the system must update all the related courses to reflect that an additional spot is now available (update the number of current students for those courses).
 
