@@ -9,7 +9,7 @@ I used some libraries for this Rest API such **Spring Web, Spring Data JPA, Vali
 
 Below are some business rules that are essential for the system's functionality:
 
-• The course code is unique in the system, therefore, only one registration with the same code course is allowed. Similarly, for both professors and students, the document and email must also be unique in the system. Additionally, the phone number must be unique for professors. All fields for both course and student are mandatory and must be filled out.
+• The course code is unique in the system, therefore, only one registration with the same code course is allowed. Similarly, for both professors and students, the document and email must also be unique in the system. Additionally, the phone number must be unique for professors.
 
 • A professor can teach multiple courses, while each course can be taught by only one professor. A course can have many students, and similarly, a student can be enrolled in many courses.
 
