@@ -3,7 +3,7 @@
 
 I developed a Rest API to manage courses and their professors and students, in an academic system, built by using **Spring Boot, Java, and MySQL as the Database**, providing CRUD (Create, Read, Update, Delete) operations with authentication control enabled through **Spring Security and JWT tokens**. This API allows storing course information, such as: course code, name, description, credits, and max students (the maximum number of students allowed in the course). It also supports storing professor information, which includes: document, first name, last name, phone number, department, and email, as well as student information, which includes: document, first name, last name, gender, birth date, and email. Finally, to ensure security, storing user information such as username and password is necessary for all user types, including admin, student, and professor.
 
-I used some libraries for this Rest API such **Spring Web, Spring Data JPA, Validation, ModelMapper, MySQL Driver, Spring Security and java-jwt**.
+I used some libraries for this Rest API such **Spring Web, Spring Data JPA, Validation, ModelMapper, MySQL Driver, SpringDoc OpenAPI Starter WebMVC UI (for the API documentation), Spring Security and java-jwt**.
 
 ## Requirements
 
